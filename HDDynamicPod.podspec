@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HDDynamicPod/Classes/**/*'
   
+  # 使用静态库，默认为 false
+  s.static_framework = false
+  
   # s.resource_bundles = {
   #   'HDDynamicPod' => ['HDDynamicPod/Assets/*.png']
   # }

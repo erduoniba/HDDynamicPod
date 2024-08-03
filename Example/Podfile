@@ -8,6 +8,6 @@ target 'HDDynamicPod_Example' do
   target 'HDDynamicPod_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1554649EEC39E7E5B9450E2E /* Pods_HDDynamicPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDDynamicPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A64E17D89EB777226736D8 /* Pods-HDDynamicPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDDynamicPod_Example.release.xcconfig"; path = "Target Support Files/Pods-HDDynamicPod_Example/Pods-HDDynamicPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5AB59F2CF83331715A0022C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5AB59F2CF83331715A0022C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HDDynamicPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDDynamicPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* HDDynamicPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDDynamicPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		643EB9F7233A249108D382A5 /* HDDynamicPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HDDynamicPod.podspec; path = ../HDDynamicPod.podspec; sourceTree = "<group>"; };
-		9F439BB87EE93E8A7BFA9298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		643EB9F7233A249108D382A5 /* HDDynamicPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDDynamicPod.podspec; path = ../HDDynamicPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F439BB87EE93E8A7BFA9298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3523DC006E657870692E227 /* Pods_HDDynamicPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDDynamicPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FC318991EEBCEE6CF42FC4 /* Pods-HDDynamicPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDDynamicPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDDynamicPod_Tests/Pods-HDDynamicPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4D7212632413734ED93F751 /* Pods-HDDynamicPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDDynamicPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-HDDynamicPod_Tests/Pods-HDDynamicPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				C7FC318991EEBCEE6CF42FC4 /* Pods-HDDynamicPod_Tests.debug.xcconfig */,
 				D4D7212632413734ED93F751 /* Pods-HDDynamicPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDDynamicPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDDynamicPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

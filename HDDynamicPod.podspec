@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDDynamicPod'
-  s.version          = '0.1.6-beta.4'
+  s.version          = '0.1.6-beta.5'
   s.summary          = 'A short description of HDDynamicPod.'
 
 # This description is used to generate tags and improve search results.

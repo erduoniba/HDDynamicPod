@@ -1,16 +1,24 @@
 PODS:
-  - HDDynamicPod (0.1.0)
+  - HDDynamicPod (0.1.6-beta.5):
+    - HDStaticPod (~> 0.1.11-beta.3)
+  - HDStaticPod (0.1.11-beta.3)
 
 DEPENDENCIES:
   - HDDynamicPod (from `../`)
+  - HDStaticPod (= 0.1.11-beta.3)
+
+SPEC REPOS:
+  file:///Users/denglibing5/HDProjects/ImyBin/.imy-infra/specs/imy-binary.git:
+    - HDStaticPod
 
 EXTERNAL SOURCES:
   HDDynamicPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HDDynamicPod: a4591f3329dfec9327b67f9173bacd22fd7f387f
+  HDDynamicPod: fc1e61678174d6d8462903ea20fd3fa784cabd81
+  HDStaticPod: 88dfc902fe39d0014933f58efdefe91c4af87b3b
 
-PODFILE CHECKSUM: 6e267e64e8ea716e24edaca3e26a2c90ed1ca130
+PODFILE CHECKSUM: ae42e8bb35c33c1a9318c882f675f0386f44f835
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

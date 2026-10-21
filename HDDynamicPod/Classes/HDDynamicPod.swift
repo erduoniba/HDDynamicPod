@@ -7,8 +7,12 @@
 
 import Foundation
 
+import HDStaticPod
+
 public struct HDDynamicPod {
     public static func dynamicLog() {
-        print("This is dynamic log v0.1.6-beta2")
+        print("This is dynamic log v0.1.6-beta6")
+      
+      HDStaticPod.staticLog()
     }
 }

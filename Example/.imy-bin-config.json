@@ -4,13 +4,13 @@
       "enabled" : true,
       "mode" : "binary",
       "name" : "HDStaticPod",
-      "path" : "../../HDStaticPod",
-      "version" : "0.1.11-beta.2"
+      "path" : "..\/..\/HDStaticPod",
+      "version" : "0.1.11-beta.3"
     }
   ],
   "defaultMode" : "binary",
   "environment" : "dev",
   "project" : "Example",
-  "updatedAt" : "2026-10-21T11:23:00Z",
+  "updatedAt" : "2026-10-21T11:36:44Z",
   "version" : 1
 }

@@ -9,6 +9,6 @@ import Foundation
 
 public struct HDDynamicPod {
     public static func dynamicLog() {
-        print("This is dynamic log v0.1.6-beta1")
+        print("This is dynamic log v0.1.6-beta2")
     }
 }

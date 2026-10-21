@@ -1,0 +1,16 @@
+{
+  "components" : [
+    {
+      "enabled" : true,
+      "mode" : "binary",
+      "name" : "HDStaticPod",
+      "path" : "..\/..\/HDStaticPod",
+      "version" : "0.1.11-beta.1"
+    }
+  ],
+  "defaultMode" : "binary",
+  "environment" : "dev",
+  "project" : "Example",
+  "updatedAt" : "2026-10-21T10:59:55Z",
+  "version" : 1
+}

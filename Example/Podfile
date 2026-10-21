@@ -1,13 +1,16 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.0'
+
+plugin 'cocoapods-imy-bin'
+set_configuration_env 'dev'
+use_binaries!
 
 target 'HDDynamicPod_Example' do
   pod 'HDDynamicPod', :path => '../'
+  imy_bin_config_dependencies
 
   target 'HDDynamicPod_Tests' do
     inherit! :search_paths
-
-
   end
 end

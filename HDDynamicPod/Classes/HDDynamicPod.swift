@@ -11,7 +11,7 @@ import HDStaticPod
 
 public struct HDDynamicPod {
     public static func dynamicLog() {
-        print("This is dynamic log v0.1.6-beta6")
+        print("This is dynamic log v0.1.6-beta.8")
       
       HDStaticPod.staticLog()
     }
